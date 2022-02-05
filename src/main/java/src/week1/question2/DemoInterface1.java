@@ -1,4 +1,4 @@
-package week1.question2;
+package src.week1.question2;
 
 interface DemoInterface1 {
     default void print() {

@@ -14,7 +14,7 @@ miras alsın, yani çoklu kalıtım yapsın. SubClass, kalıtım yaptığı sın
 metodunu çağıracağını bilemez. Derleme esnasında aşağıdaki hatayı veriyor. 
 
 ### Compile Time Error
-![Output](./images/multiple_inheritance1.png)
+![Output](images/multiple_inheritance1.png)
 
 Bu duruma **diamond problemi** de denir. Java, çoklu kalıtımı desteklemiyor ancak çoklu kalıtım yaparsanız
 burada olduğu gibi "derleme zamanı hatası" alınır.
@@ -28,4 +28,4 @@ Aynı isimde ve imzadaki bir default metodu farklı iki interfaceden implement e
 Örnektede de görüldüğü gibi aynı isme ve imzaya sahip default metodlar varsa interface adıya birlikte açıkça belirtilerek çağrılır.
 Sırasıyla DemoInterface1 DemoInterface2 için print() metodunu çağırmıştır.
 
-![](./images/default_method.png)
+![](images/default_method.png)
